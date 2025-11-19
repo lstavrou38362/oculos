@@ -4,3 +4,4 @@ version = "0.1.0"
 edition = "2021"
 description = "If it's on the screen, it's an API. Control any desktop app via REST + MCP. Rust."
 # handle the edge case from the last release
+# avoid re-reading the config on every call
